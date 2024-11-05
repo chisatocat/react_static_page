@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Static Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="./index.html">
+          <img src="./img/logo.svg" alt="logo" />
+        </a>
+      </div>
+
+      <!-- desktop
+      
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-regular fa-user"></i>
+      <i class="fa-brands fa-servicestack"></i>
+      <i class="fa-solid fa-location-dot"></i>
+      
+      -->
+      <div class="nav-links">
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="nav-link"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link">
+              <i class="fa-regular fa-user"></i>About</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="nav-link"
+              ><i class="fa-brands fa-servicestack"></i>Services</a
+            >
+          </li>
+          <li>
+            <a href="#tours" class="nav-link"
+              ><i class="fa-solid fa-location-dot"></i>Tours</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="nav-icons">
+        <ul class="nav-icons-list">
+          <li>
+            <a href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com"
+              ><i class="fa-brands fa-twitter fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com"
+              ><i class="fa-brands fa-whatsapp fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- moible -->
+      <div class="nav-mobile">
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-banner">
+          <h1>Continue Exploring</h1>
+
+          <p class="m-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            aperiam!
+          </p>
+
+          <a href="#tours" class="btn hero-btn">Explore tours</a>
+        </div>
+      </section>
+    </main>
+
+    <section class="section my-3" id="about">
+      <div class="section-title mb-large">
+        <h2>About <span>us</span></h2>
+      </div>
+
+      <div class="section-center about-center mb-large">
+        <div class="about-img">
+          <img class="about-photo" src="./img/about.jpg" alt="" />
+        </div>
+
+        <article class="about-content">
+          <h3 class="mb-3">Explore the difference</h3>
+          <p class="mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            molestiae provident.
+          </p>
+
+          <p class="mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            alias hic unde ipsa perferendis. Corrupti culpa quia maiores
+            molestiae provident.
+          </p>
+
+          <a href="#" class="btn about-btn">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <div class="section" id="services">
+      <div class="section-title mb-3">
+        <h2>our <span>servics</span></h2>
+
+        <div class="section-center services-center">
+          <article class="service">
+            <span class="service-icon">
+              <i class="fa-solid fa-wallet"></i>
+            </span>
+
+            <div class="service-info">
+              <h4 class="service-title">Saving money</h4>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, ipsum!
+              </p>
+            </div>
+          </article>
+
+          <!-- first icon-->
+          <article class="service">
+            <span class="service-icon">
+              <i class="fa-solid fa-tree"></i>
+            </span>
+
+            <!-- secnond icon-->
+            <div class="service-info">
+              <h4 class="service-title">endless hiking</h4>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, ipsum!
+              </p>
+            </div>
+          </article>
+          <!-- third icon-->
+          <article class="service">
+            <span class="service-icon">
+              <i class="fa-solid fa-socks"></i>
+            </span>
+
+            <div class="service-info">
+              <h4 class="service-title">Amazing Comfort</h4>
+              <p class="service-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, ipsum!
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="section tours mb-large" id="tours">
+      <div class="section-title mb-3">
+        <h2>featured <span>tours</span></h2>
+      </div>
+
+      <div class="section-center featured-center mb-3">
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature001.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="fa-solid fa-map"></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature002.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="" fa-solid fa-map></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature003.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="" fa-solid fa-map></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature04.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="" fa-solid fa-map></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature05.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="" fa-solid fa-map></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img src="./img/feature06.jpg" alt="" />
+            <p class="tour-date">Aug 26th 2024</p>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="mb-1">tibet adventure</h4>
+            <p class="mb-1">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vel
+              corrupti voluptate, ducimus laudantium eum quidem mollitia qui quo
+              dolorem amet cumque culpa rerum porro adipisci aliquid dicta,
+              tenetur exercitationem.
+            </p>
+            <div class="tour-footer">
+              <ul class="tour-footer-info">
+                <li><i class="" fa-solid fa-map></i>China</li>
+                <li>6 Days</li>
+                <li>From $2100</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <footer class="section footer">
+      <div class="nav-links">
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="nav-link"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link">
+              <i class="fa-regular fa-user"></i>About</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="nav-link"
+              ><i class="fa-brands fa-servicestack"></i>Services</a
+            >
+          </li>
+          <li>
+            <a href="#tours" class="nav-link"
+              ><i class="fa-solid fa-location-dot"></i>Tours</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="nav-icons">
+        <ul class="nav-icons-list">
+          <li>
+            <a href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com"
+              ><i class="fa-brands fa-twitter fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.whatsapp.com"
+              ><i class="fa-brands fa-whatsapp fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        copyright © backroads travel tours company
+        <span id="year">2048</span> all rights reserved
+      </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
